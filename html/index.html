@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/calculator.js"></script>
+  </head>
+  <body>
+    <div class="calc-container" id="calc-obj">
+      <span class="calc-menu"><input type="button" class="calc-remove" value="x"/></span>
+      <span class="calc-menu"><input type="button" class="calc-clone" value="+"/></span>
+      <table class="calc-table">
+        <tr>
+          <td colspan="4">
+            <select class="calc-exp"><option value="0">0</option></select>
+          </td>
+        </tr>
+        <tr>
+          <td class="calc-btn"><input type="button" class="calc-num" value="7"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="8"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="9"/></td>
+          <td class="calc-btn"><input type="button" class="calc-oper" value="+"/></td>
+        </tr>
+        <tr>
+          <td class="calc-btn"><input type="button" class="calc-num" value="4"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="5"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="6"/></td>
+          <td class="calc-btn"><input type="button" class="calc-oper" value="-"/></td>
+        </tr>
+        <tr>
+          <td class="calc-btn"><input type="button" class="calc-num" value="1"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="2"/></td>
+          <td class="calc-btn"><input type="button" class="calc-num" value="3"/></td>
+          <td class="calc-btn"><input type="button" class="calc-oper" value="*"/></td>
+        </tr>
+        <tr>
+          <td class="calc-btn" colspan="2"><input type="button" class="calc-num" value="0"/></td>
+          <td class="calc-btn"><input type="button" class="calc-info" value="?"/></td>
+          <td class="calc-btn"><input type="button" class="calc-oper" value="/"/></td>
+        </tr>
+        <tr>
+          <td class="calc-btn" colspan="2"><input type="button" class="calc-clear" value="C"/></td>
+          <td class="calc-btn" colspan="2"><input type="button" class="calc-result" value="="/></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
